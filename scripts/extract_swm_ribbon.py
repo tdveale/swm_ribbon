@@ -7,7 +7,7 @@ from scipy.spatial import cKDTree
 
 # get arguments
 __description__ = '''
-This script uses a SWM ribbon created beforehand (from WM surface to 2mm below), removes the midline and assigns region
+This script uses a SWM ribbon created beforehand (from grey matter/white matter surface to 2mm below), removes the midline and assigns region
 of interest values based on nearest cortical neighbour.
 Output is a cleaned SWM ribbon mask and SWM ribbon with region of interest values from the Desikan-Killiany atlas.
 
